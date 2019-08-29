@@ -308,7 +308,7 @@
 <!--<script src="https://d3js.org/geojson.v1.min.js"></script>-->
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/5.2.3/math.min.js"></script>
-<script src="https://github.com/martgnz/bcn-geodata/blob/master/barris/barris.json"></script>
+<script src="https://cdn.jsdelivr.net/gh/martgnz/bcn-geodata/barris/barris.json"></script>
 
 <script>
 
@@ -340,7 +340,7 @@
     function netejar(myObject) {
         $("svg").html("");
 
-        d3.json("https://github.com/martgnz/bcn-geodata/blob/master/barris/barris.json" , function(error, bcn) {
+        d3.json("https://cdn.jsdelivr.net/gh/martgnz/bcn-geodata/barris/barris.json" , function(error, bcn) {
 
             svg.selectAll('.barris')
                 .data(bcn.features)
@@ -3288,7 +3288,7 @@
             }
         }
 
-        d3.json("https://cdn.rawgit.com/martgnz/bcn-geodata/master/barris/barris_geo.json", function (error, bcn) {
+        d3.json("https://cdn.jsdelivr.net/gh/martgnz/bcn-geodata/barris/barris.json", function (error, bcn) {
             // console.log("dataMapa", dataMapa);
             var dataMapaList = Object.values(dataMapa);
             // console.log(Object.keys(dataMapa));
