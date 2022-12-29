@@ -3,8 +3,9 @@
 <head>
     <link rel="stylesheet" href="style.css">
 </head>
+<script src="include.js"></script> 
 <header>
-    <a href="https://sabinabatlle.github.io"> <button id="0" class="button n0 edu" style="padding: 10px" onclick="https://sabinabatlle.github.io"><light>About me</light></button></a>
+    <div w3-include-html="header.html"></div> 
 </header>
 <body>
     <div class="titol">
@@ -59,7 +60,10 @@
     </div> 
 </body>
 <script src="collapsible.js"></script>
-<footer style="font-family: arial; font-size: 10px; color:#32384d; text-align: right; padding-right:20px; padding-bottom: 20px">
+<script>
+  includeHTML();
+</script> 
+<footer style="font-family: arial; font-size: 10px; color:#32384d; text-align: right; padding: 2em">
     Sabina Batlle Baró, 2022
 </footer>
 </html>
