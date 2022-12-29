@@ -1,22 +1,12 @@
 .titol {
     padding: 10px 20px 0 20px;
 }
-.container1 {
-     display: flex;
-     justify-content: space-between;
-     padding: 20px;
- }
-.container {
-    display: flex;
-    justify-content: space-evenly;
-    height: 50px;
-}
-.container2 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
+
+
+
+/*ESTILS DE LLETRA*/
+
+/*Títols*/
 h0 {
     padding-top: 20px;
     font-family:arial;
@@ -24,9 +14,9 @@ h0 {
     color:#b2473e;
 }
 h1 {
-    padding-top: 15px;
-    padding-bottom: 0px;
-    font-family:arial;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
     font-size: 20px;
     color:#211f30;
 }
@@ -34,7 +24,7 @@ h2 {
     padding-top: 5px;
     padding-bottom: 5px;
     font-family:arial;
-    font-size: 20px;
+    font-size: 17px;
     color:#d4dde1;
 }
 h3 {
@@ -44,29 +34,68 @@ h3 {
     font-size: 15px;
     color:#030b0f;
 }
-p1 {
-    font-family:arial;
-    font-size: 14px;
-    padding: 0;
-}
+
+/*Paràgrafs*/
 p {
-    font-family:arial;
+    font-family: arial;
     font-size: 14px;
     padding: 0;
-    color:#d4dde1;
 }
-light {
-    color:#d4dde1;
-    text-decoration: none;
-}
-dark {
-    color: #32384d;
+p1 {
+    font-family: arial;
+    font-size: 14px;
+    padding: 0;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
 }
 p2 {
     font-family:arial;
     color:#d4dde1;
     font-size: 12px;
     padding: 0;
+}
+
+/*Classes i colors*/
+.light {
+    color:#d4dde1;
+}
+.dark {
+    color: #32384d;
+}
+.salmon{
+    color: #D6736B;
+    text-decoration: none;
+}
+.orange{
+    color: #b2473e; 
+    text-decoration: none;
+}
+.red{
+    color: #600902;
+    text-decoration: none;
+}
+.thick{
+    font-weight: bold;
+}
+thin{
+    font-weight: lighter;
+}
+/*ESTILS DE CONTENIDOR*/
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.container {
+   display: flex;
+   justify-content: space-evenly;
+   /*height: 50px;*/
+}
+.container2 {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: space-between;
 }
 .item1{
     flex-grow: 2;
@@ -94,21 +123,9 @@ p2 {
     order: 99;
     padding-top: 500px;
 }
-.info {
-    text-align: center;
-}
-.barris {
-    stroke: #fff;
-    stroke-width:2px;
-}
-.barris:hover {
-    fill: #b2473e;
-    /*stroke: #3a3a3a;*/
-    /*stroke-width:4px;*/
-}
-.pintats:hover {
-    fill: #e5e5e5;
-}
+
+
+/*BOTONS*/
 .button {
     background-color: #32384d;
     stroke: #fff;
@@ -132,6 +149,16 @@ p2 {
     padding: 5px 35px 5px 35px;
     flex-grow:1;
 }
+.button1 {
+    border-width: 0ch;
+    padding: 8px;
+    background-color: #e5e5e5;
+}
+.button1:hover {
+    background-color: #b2473e
+}
+
+/**/
 .selected {
     background-color: #600902;
 }
