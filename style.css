@@ -81,6 +81,14 @@ thin{
     font-weight: lighter;
 }
 /*ESTILS DE CONTENIDOR*/
+.head{
+    flex-grow: 2;
+    order: 1;
+    background-color: #e5e5e5;
+    /*#e2e8e4*/
+    border-radius: 1px;
+    padding: 0.2em;
+}
 .container1 {
     display: flex;
     justify-content: space-between;
