@@ -77,8 +77,11 @@ p2 {
 .thick{
     font-weight: bold;
 }
-thin{
+.thin{
     font-weight: lighter;
+}
+.small {
+    font-size:smaller;
 }
 /*ESTILS DE CONTENIDOR*/
 .container1 {
@@ -131,7 +134,7 @@ thin{
 .gray-container {
     background-color: #e5e5e5;
     border-radius: 1px;
-    padding: 2em;
+    padding: 1em;
 }
 
 .white-container {
@@ -206,7 +209,7 @@ thin{
  /* Style the button that is used to open and close the collapsible content */
  .collapsible {
     background-color: #eee;
-    color: #444;
+    color: #b2473e;
     cursor: pointer;
     padding: 18px;
     width: 100%;
