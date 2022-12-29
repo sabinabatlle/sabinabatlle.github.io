@@ -106,7 +106,7 @@ thin{
     padding: 0.2em;
 }
 .item1{
-    flex-grow: 1;
+    flex-grow: 2;
     order: 1;
 }
 .item2 {
