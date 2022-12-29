@@ -152,6 +152,7 @@ thin{
 .button1 {
     border-width: 0ch;
     padding: 8px;
+    border-radius: 1px;
     background-color: #e5e5e5;
 }
 .button1:hover {
