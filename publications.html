@@ -3,15 +3,9 @@
 <head>
     <link rel="stylesheet" href="style.css">
 </head>
+<script src="include.js"></script> 
 <header>
-    <div class="container">
-    <button id="0" class="button n0 edu" style="padding: 10px" onclick="https://sabinabatlle.github.io"><light>About me</light></button>
-    <button id="0" class="button n0 edu" style="padding: 10px" onclick="https://sabinabatlle.github.io"><light>Current research</light></button>
-    <button id="0" class="button n0 edu" style="padding: 10px" onclick="https://sabinabatlle.github.io"><light>Publications</light></button>
-    <button id="0" class="button n0 edu" style="padding: 10px" onclick="https://sabinabatlle.github.io"><light>Archaeology</light></button>
-    <button id="0" class="button n0 edu" style="padding: 10px" onclick="https://sabinabatlle.github.io"><light>Contact</light></button>
-    <button id="0" class="button n0 edu" style="padding: 10px" onclick="https://sabinabatlle.github.io"><light>CV</light></button>
-    </div>
+    <div w3-include-html="header.html"></div> 
 </header>
 <body>
 <div class="titol">
@@ -48,7 +42,9 @@
     -->
 </div>
 </div>
-
+<script>
+    includeHTML();
+</script> 
 </body>
 <footer style="font-family: arial; font-size: 10px; color:#32384d; text-align: right; padding 2em;">
     Sabina Batlle Baró, 2022
