@@ -156,7 +156,8 @@ p2 {
     /*margin-right: 5px;*/
 }
 .button:hover {
-    background-color: #b2473e
+    background-color: #b2473e;
+    stroke: #d4dde1;
     /*#e29930*/
 }
 .buttonVermell {
@@ -174,7 +175,8 @@ p2 {
     background-color: #e5e5e5;
 }
 .button1:hover {
-    background-color: #b2473e
+    background-color: #b2473e;
+    stroke: #d4dde1;
 }
 
 /**/
@@ -237,11 +239,11 @@ img {
     transition:transform 0.25s ease;
 }
 
-img2 {
+.logo {
     transition:transform 0.25s ease;
 }
 
-img2:hover {
+.logo:hover {
     -webkit-transform:scale(2); /* or some other value */
     transform:scale(2);
 }
