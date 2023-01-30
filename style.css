@@ -173,6 +173,7 @@ p2 {
     padding: 8px;
     border-radius: 1px;
     background-color: #e5e5e5;
+    stroke: #32384d;
 }
 .button1:hover {
     background-color: #b2473e;
