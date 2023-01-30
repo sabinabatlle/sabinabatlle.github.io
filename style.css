@@ -235,10 +235,6 @@ p2 {
     background-color: #f1f1f1;
   } 
 
- 
-img {
-    transition:transform 0.25s ease;
-}
 
 .logo {
     transition:transform 0.25s ease;
