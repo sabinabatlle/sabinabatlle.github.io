@@ -237,7 +237,11 @@ img {
     transition:transform 0.25s ease;
 }
 
-img:hover {
+img2 {
+    transition:transform 0.25s ease;
+}
+
+img2:hover {
     -webkit-transform:scale(2); /* or some other value */
     transform:scale(2);
 }
