@@ -157,7 +157,7 @@ p2 {
 }
 .button:hover {
     background-color: #b2473e;
-    stroke: #d4dde1;
+    color: #d4dde1;
     /*#e29930*/
 }
 .buttonVermell {
@@ -177,7 +177,7 @@ p2 {
 }
 .button1:hover {
     background-color: #b2473e;
-    stroke: #d4dde1;
+    color: #d4dde1;
 }
 
 /**/
